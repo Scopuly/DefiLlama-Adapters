@@ -7,5 +7,8 @@ async function tvl() {
 }
 
 module.exports = {
-  tvl,
-}
+  methodology: 'TVL counts the liquidity of the Pools on AMM, data is pulled from the Scopuly API: "https://scopuly.com/pools".',
+  stellar: {
+    tvl
+  }
+};
