@@ -8,5 +8,6 @@ async function tvl() {
 module.exports = {
   timetravel: false,
   misrepresentedTokens: true,
+  methodology: 'Calculation of TVL for liquidity pools (Stellar AMM) based on data extracted from Scopuly API: “https://scopuly.com/pools”.',
   stellar: { tvl },
 }
